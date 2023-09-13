@@ -2,19 +2,15 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { Container } from '../src/Components/Layouts'
 import styled from '@emotion/styled'
 
-function App() {
-  const [count, setCount] = useState(0)
+const AppStoreButton = styled.button`
+  
+`;
 
-  const Container = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    min-height: 100vh;
-  `;
+
+function App() {
 
   return (
     <Container>
@@ -24,6 +20,8 @@ function App() {
       <p>Challenge your friends</p>
       <p>Learn about cryptocurrency</p>
       <p>Prove you are the best (without having to spend money)</p>
+      <AppStoreButton>App Store</AppStoreButton>
+
     </Container>
   )
 }
