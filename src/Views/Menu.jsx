@@ -17,20 +17,25 @@ const LogoTitle = styled.h2`
 `;
 
 const MenuItem = styled.div`
+  font-size: 0.7rem;
+`;
 
+
+const MenuButton = styled.button`
+  font-size: 0.7rem;
 `;
 
 function Menu() {
   return (
-    <RowContainer>
-      <RowContainer justify='flex-start'>
+    <RowContainer justify='flex-start'>
+      <RowContainer>
          <Logo src={LogoImage}></Logo>
          <LogoTitle>Crypto Stand</LogoTitle>
       </RowContainer>
-      <RowContainer>
+      <RowContainer justify='flex-end'>
         <MenuItem>Contact</MenuItem>
         <MenuItem>FAQ</MenuItem>
-        <button>Download</button>
+        <MenuButton>Download</MenuButton>
       </RowContainer>
        
     </RowContainer>
