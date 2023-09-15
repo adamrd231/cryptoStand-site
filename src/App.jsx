@@ -111,8 +111,6 @@ function App() {
       <RowContainer color="#efefef" background="#1a1a1a">
         <FooterItems>rdConcepts</FooterItems>
         <FooterItems>adam@rdconcepts.design</FooterItems>
-        <FooterItems>privacy</FooterItems>
-        <FooterItems>terms</FooterItems>
       </RowContainer>
 
      

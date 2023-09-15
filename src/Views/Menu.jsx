@@ -33,11 +33,13 @@ function Menu() {
          <LogoTitle>Crypto Stand</LogoTitle>
       </RowContainer>
       <RowContainer justify='flex-end'>
+      <a href="mailto:adam@rdconcepts.design" >
         <MenuItem>Contact</MenuItem>
-        <MenuItem>FAQ</MenuItem>
-        <a href="https://apps.apple.com/us/app/crypto-stand/id1608452177?itsct=apps_box_badge&amp;itscg=30200" >
-          <MenuButton >Download</MenuButton>
-        </a>
+      </a>
+
+      <a href="https://apps.apple.com/us/app/crypto-stand/id1608452177?itsct=apps_box_badge&amp;itscg=30200" >
+        <MenuButton >Download</MenuButton>
+      </a>
 
       </RowContainer>
        
