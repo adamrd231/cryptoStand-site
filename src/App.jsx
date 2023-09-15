@@ -33,8 +33,8 @@ const TextButton = styled.button`
 const LandingImage = styled.img`
   width: 15rem;
   margin: auto;
-`;
 
+`;
 
 const Background = styled.img`
     position: absolute;
@@ -42,9 +42,8 @@ const Background = styled.img`
     opacity: 0.1;
     object-fit: cover;
     max-width: 100%;
-
     filter: blur(3px);
-
+    height: 100%;
 
 `;
 
@@ -62,7 +61,9 @@ const BottomImage = styled.img`
   widht: 3rem;
 `;
 
-
+const CallToActionText = styled.div`
+  margin: 0;
+`;
 
 function App() {
 
@@ -89,11 +90,18 @@ function App() {
       <ColumnContainer background={'white'}>
         
         <BottomContainer>
+          <CallToActionText>Five star rating on the app store</CallToActionText>
           <Stars />
-          <p>Download now on the app store</p>
-          <BottomImage src={QR} />
         </BottomContainer>
-      
+        <a 
+          href="https://apps.apple.com/us/app/crypto-stand/id1608452177?itsct=apps_box_badge&amp;itscg=30200" 
+          style={{display: 'inline-block', overflow: 'hidden', borderRadius: '13px', width: 'fit-content', height: 'auto', margin: '1rem auto'}}>
+            <img 
+              src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1644192000" 
+              alt="Download on the App Store" 
+              style={{borderRadius: '13px', width: '200px', height: '75px'}} />
+
+        </a>
 
 
       </ColumnContainer>

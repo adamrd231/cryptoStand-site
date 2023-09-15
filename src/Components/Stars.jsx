@@ -3,16 +3,21 @@ import styled from "@emotion/styled";
 const Container = styled.div`
   display: flex;
   flex-direction: row;
+  gap: 0.66rem;
+`;
+
+const SingleStar = styled.span`
+  color: #ffd23f;
 `;
 
 function Stars() {
   return (
     <Container>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
+      <SingleStar className="fa fa-star checked"></SingleStar>
+      <SingleStar className="fa fa-star checked"></SingleStar>
+      <SingleStar className="fa fa-star checked"></SingleStar>
+      <SingleStar className="fa fa-star checked"></SingleStar>
+      <SingleStar className="fa fa-star checked"></SingleStar>
     </Container>
   )
 }
