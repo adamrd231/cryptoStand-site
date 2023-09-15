@@ -45,7 +45,6 @@ Error generating stack: `+i.message+`
   height: auto;
   width: 100%;
   box-sizing: border-box;
-
 `,cn=Z.div`
   display: flex;
   flex-direction: row;
@@ -63,6 +62,7 @@ Error generating stack: `+i.message+`
   width: 100%;
   background: ${e=>e.background?e.background:"transparent"};
   padding: 1rem;
+  box-sizing: border-box;
 `,jh="/cryptoStand-site/assets/screenshot-edd5ad59.png",Mh="/cryptoStand-site/assets/CryptoLogo-6678f090.png",Ih=Z.img`
   height: 3rem;
   width: 3rem;
@@ -81,9 +81,12 @@ Error generating stack: `+i.message+`
   display: flex;
   flex-direction: row;
   gap: 0.66rem;
+  margin: 0;
 `,Mn=Z.span`
   color: #ffd23f;
-`;function Bh(){return z.jsxs(Vh,{children:[z.jsx(Mn,{className:"fa fa-star checked"}),z.jsx(Mn,{className:"fa fa-star checked"}),z.jsx(Mn,{className:"fa fa-star checked"}),z.jsx(Mn,{className:"fa fa-star checked"}),z.jsx(Mn,{className:"fa fa-star checked"})]})}const Hh=Z.div`
+  font-size: 2rem;
+  margin: 0;
+`;function Bh(){return z.jsxs(Vh,{children:[z.jsx(Mn,{className:"fa fa-star fa-xl checked"}),z.jsx(Mn,{className:"fa fa-star checked"}),z.jsx(Mn,{className:"fa fa-star checked"}),z.jsx(Mn,{className:"fa fa-star checked"}),z.jsx(Mn,{className:"fa fa-star checked"})]})}const Hh=Z.div`
   color: green;
   font-size: 0.8rem;
   font-weight: 800;
@@ -101,7 +104,6 @@ Error generating stack: `+i.message+`
 `,Yh=Z.img`
   width: 15rem;
   margin: auto;
-
 `,Xh=Z.img`
     position: absolute;
     z-index: -1;
@@ -110,15 +112,16 @@ Error generating stack: `+i.message+`
     max-width: 100%;
     filter: blur(3px);
     height: 100%;
-
 `,Gh=Z.div`
   display: flex;
   flex-direction: column;
   justify-content: center; 
   align-items: center;
   color: black;
-  gap: 1rem;
+  gap: 0.5rem;
 `,Zh=Z.div`
+  font-weight: 300;
+  font-style: italic;
   margin: 0;
 `,Is=Z.div`
   font-size: 0.6rem;
