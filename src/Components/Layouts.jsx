@@ -5,9 +5,10 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+
+  min-height: 100vh;
   width: 100%;
-
-
+  background: ${ props => props.background ? props.background : 'blue' };
 `;
 
 const RowContainer = styled.div`
@@ -16,7 +17,12 @@ const RowContainer = styled.div`
   justify-content: space-between;
   width: 100%;
   background: ${ props => props.background ? props.background : 'transparent' };
-  gap: 3rem;
 `;
 
-export { Container,  RowContainer };
+const ColumnContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+`;
+
+export { Container,  RowContainer, ColumnContainer };

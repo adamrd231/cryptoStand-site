@@ -1,18 +1,3 @@
-/* Override stlying for html components */
-h2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  text-align: left;;
-}
-
-p {
-  margin: 0;
-  text-align: left;;
-}
-
-button {
-  margin-top: 0.5rem;
-}
 
 
 :root {
