@@ -40,6 +40,7 @@ const Background = styled.img`
     opacity: 0.1;
     object-fit: cover;
     max-width: 100%;
+    width: 100%;
     filter: blur(3px);
     height: 100%;
 `;
