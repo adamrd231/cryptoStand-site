@@ -16,7 +16,7 @@ const RowContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: ${ props => props.justify ? props.justify : 'flex-start' };
-  align-items: center;
+  align-items: ${ props => props.align ? props.align : 'center' };;
   width: 100%;
   background: ${ props => props.background ? props.background : 'transparent' };
   gap: 1rem;

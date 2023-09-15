@@ -5,6 +5,7 @@ import AppImage from '../src/assets/screenshot.png'
 import Menu from './Views/Menu'
 import BackgroundImage from './assets/cryptoBackground.webp'
 import QR from './assets/qr.png'
+import Stars from './Components/Stars'
 
 const Subheading = styled.div`
   color: green;
@@ -39,8 +40,26 @@ const Background = styled.img`
     position: absolute;
     z-index: -1;
     opacity: 0.1;
-    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
 
+    filter: blur(3px);
+
+
+`;
+
+const BottomContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  color: black;
+  gap: 1rem;
+`;
+
+const BottomImage = styled.img`
+  height: 3rem;
+  widht: 3rem;
 `;
 
 
@@ -51,7 +70,7 @@ function App() {
     <Container>
       <Background src={BackgroundImage} />
       <Menu />
-      <RowContainer justify='space-between'>
+      <RowContainer align='top' justify='space-between'>
         <LandingContainer>
           <Subheading>Mobile app for cryptocurrency education</Subheading>
           <h1>Can you make money with Crypto?</h1>
@@ -67,12 +86,17 @@ function App() {
         </ColumnContainer>
       </RowContainer>
       
-      <RowContainer background={'white'}>
+      <ColumnContainer background={'white'}>
+        
+        <BottomContainer>
+          <Stars />
+          <p>Download now on the app store</p>
+          <BottomImage src={QR} />
+        </BottomContainer>
+      
 
-        <h2>Hello</h2>
-        <LandingImage src={QR} />
 
-      </RowContainer>
+      </ColumnContainer>
      
 
     </Container>
