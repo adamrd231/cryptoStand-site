@@ -1,6 +1,5 @@
 import styled from '@emotion/styled'
 
-
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -9,7 +8,6 @@ const Container = styled.div`
   height: auto;
   width: 100%;
   box-sizing: border-box;
-
 `;
 
 const RowContainer = styled.div`
@@ -31,6 +29,7 @@ const ColumnContainer = styled.div`
   width: 100%;
   background: ${ props => props.background ? props.background : 'transparent' };
   padding: 1rem;
+  box-sizing: border-box;
 `;
 
 export { Container,  RowContainer, ColumnContainer };
