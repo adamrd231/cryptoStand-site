@@ -12,7 +12,7 @@ function App() {
 
   return (
     <Container>
-      <RowContainer background='blue'>
+      <RowContainer background='green'>
         <div>
         <h2>Download Crypto Stand: practice your day-trading skills now without risk.</h2>
         <p>Star Star Star Star Star on the app store</p>
@@ -30,7 +30,7 @@ function App() {
 
       </RowContainer>
       
-      <RowContainer background='white'>
+      <RowContainer>
         <h2>Hello</h2>
       </RowContainer>
 

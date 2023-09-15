@@ -15,7 +15,7 @@ const RowContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  background: ${ props => props.background ? 'white' : 'blue' }
+  background: ${ props => props.background ? props.background : 'transparent' };
   gap: 3rem;
 `;
 
