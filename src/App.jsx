@@ -4,7 +4,6 @@ import styled from '@emotion/styled'
 import AppImage from '../src/assets/screenshot.png'
 import Menu from './Views/Menu'
 import BackgroundImage from './assets/cryptoBackground.webp'
-import QR from './assets/qr.png'
 import Stars from './Components/Stars'
 
 const Subheading = styled.div`
@@ -33,7 +32,6 @@ const TextButton = styled.button`
 const LandingImage = styled.img`
   width: 15rem;
   margin: auto;
-
 `;
 
 const Background = styled.img`
@@ -44,7 +42,6 @@ const Background = styled.img`
     max-width: 100%;
     filter: blur(3px);
     height: 100%;
-
 `;
 
 const BottomContainer = styled.div`
@@ -53,10 +50,12 @@ const BottomContainer = styled.div`
   justify-content: center; 
   align-items: center;
   color: black;
-  gap: 1rem;
+  gap: 0.5rem;
 `;
 
 const CallToActionText = styled.div`
+  font-weight: 300;
+  font-style: italic;
   margin: 0;
 `;
 
