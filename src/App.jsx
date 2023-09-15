@@ -56,13 +56,13 @@ const BottomContainer = styled.div`
   gap: 1rem;
 `;
 
-const BottomImage = styled.img`
-  height: 3rem;
-  widht: 3rem;
-`;
-
 const CallToActionText = styled.div`
   margin: 0;
+`;
+
+const FooterItems = styled.div`
+  font-size: 0.6rem;
+  font-weight: 700;
 `;
 
 function App() {
@@ -77,7 +77,9 @@ function App() {
           <h1>Can you make money with Crypto?</h1>
           <LandingText>Put your day-trading skills to the test with Crypto Stand, no real money required.</LandingText>
           <RowContainer padding='0rem'>
+          <a href="https://apps.apple.com/us/app/crypto-stand/id1608452177?itsct=apps_box_badge&amp;itscg=30200" >
             <button>App store</button>
+          </a>
             <TextButton>Contact</TextButton>
           </RowContainer>
           
@@ -105,6 +107,14 @@ function App() {
 
 
       </ColumnContainer>
+
+      <RowContainer color="#efefef" background="#1a1a1a">
+        <FooterItems>rdConcepts</FooterItems>
+        <FooterItems>adam@rdconcepts.design</FooterItems>
+        <FooterItems>privacy</FooterItems>
+        <FooterItems>terms</FooterItems>
+      </RowContainer>
+
      
 
     </Container>

@@ -5,7 +5,7 @@ import LogoImage from '../assets/CryptoLogo.png'
 const Logo = styled.img`
   height: 3rem;
   width: 3rem;
-  background: #333;
+  background: #1a1a1a;
   border-radius: 1rem;
   padding: 0.5rem;
 `;
@@ -35,7 +35,10 @@ function Menu() {
       <RowContainer justify='flex-end'>
         <MenuItem>Contact</MenuItem>
         <MenuItem>FAQ</MenuItem>
-        <MenuButton>Download</MenuButton>
+        <a href="https://apps.apple.com/us/app/crypto-stand/id1608452177?itsct=apps_box_badge&amp;itscg=30200" >
+          <MenuButton >Download</MenuButton>
+        </a>
+
       </RowContainer>
        
     </RowContainer>

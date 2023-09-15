@@ -22,6 +22,7 @@ const RowContainer = styled.div`
   gap: 1rem;
   padding: ${ props => props.padding ? props.padding : '1rem' };
   box-sizing: border-box;
+  color: ${ props => props.color ? props.color : 'white' };
 `;
 
 const ColumnContainer = styled.div`
