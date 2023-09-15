@@ -29,7 +29,9 @@ function Menu() {
   return (
     <RowContainer justify='flex-start'>
       <RowContainer>
-         <Logo src={LogoImage}></Logo>
+        <a href="https://apps.apple.com/us/app/crypto-stand/id1608452177?itsct=apps_box_badge&amp;itscg=30200" >
+          <Logo src={LogoImage}></Logo>
+        </a>
          <LogoTitle>Crypto Stand</LogoTitle>
       </RowContainer>
       <RowContainer justify='flex-end'>

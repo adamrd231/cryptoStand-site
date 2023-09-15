@@ -80,7 +80,9 @@ function App() {
           <a href="https://apps.apple.com/us/app/crypto-stand/id1608452177?itsct=apps_box_badge&amp;itscg=30200" >
             <button>App store</button>
           </a>
+          <a href="mailto:adam@rdconcepts.design" >
             <TextButton>Contact</TextButton>
+          </a>
           </RowContainer>
           
         </LandingContainer>
