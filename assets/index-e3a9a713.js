@@ -110,6 +110,7 @@ Error generating stack: `+i.message+`
     opacity: 0.1;
     object-fit: cover;
     max-width: 100%;
+    width: 100%;
     filter: blur(3px);
     height: 100%;
 `,Gh=Z.div`
