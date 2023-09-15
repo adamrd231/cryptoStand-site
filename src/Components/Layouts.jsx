@@ -7,6 +7,7 @@ const Container = styled.div`
   align-items: flex-start;
   width: 100%;
 
+
 `;
 
 const RowContainer = styled.div`
@@ -14,7 +15,7 @@ const RowContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  padding: 1rem;
+  background: ${ props => props.background ? 'white' : 'blue' }
   gap: 3rem;
 `;
 

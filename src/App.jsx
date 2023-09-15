@@ -2,17 +2,17 @@ import { useState } from 'react'
 import './App.css'
 import { Container, RowContainer } from '../src/Components/Layouts'
 import styled from '@emotion/styled'
-import AppImage from '../src/assets/test.png'
+import AppImage from '../src/assets/screenshot.png'
 
 const Image = styled.img`
-  width: 10rem;
+  width: 33%;
 `;
 
 function App() {
 
   return (
     <Container>
-      <RowContainer>
+      <RowContainer background='blue'>
         <div>
         <h2>Download Crypto Stand: practice your day-trading skills now without risk.</h2>
         <p>Star Star Star Star Star on the app store</p>
@@ -30,7 +30,9 @@ function App() {
 
       </RowContainer>
       
-     
+      <RowContainer background='white'>
+        <h2>Hello</h2>
+      </RowContainer>
 
     </Container>
   )
